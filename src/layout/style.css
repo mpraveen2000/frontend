@@ -1,0 +1,69 @@
+/* style.css */
+.layout-alignment {
+  height: 100vh;
+}
+
+.logo {
+  width: 120px;
+  height: 31px;
+  background: #ccc;
+  margin: 16px;
+  float: left;
+}
+
+.layout-alignment .ant-menu-item-selected {
+  background-color: #e6f7ff;
+}
+
+
+.layout-alignment .ant-layout-header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  padding: 0;
+  background: #fff;
+}
+
+.layout-alignment .ant-layout-content {
+  margin-top: 64px;
+  padding: 24px;
+  min-height: calc(100vh - 64px);
+}
+
+.layout-alignment .ant-layout-sider {
+  overflow: auto;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+}
+
+.layout-alignment .ant-layout-content,
+.layout-alignment .ant-layout-sider {
+  transition: all 0.2s;
+}
+
+.layout-alignment .ant-layout-sider-collapsed {
+  width: 80px;
+  overflow: hidden;
+}
+
+.layout-alignment .ant-layout-sider-collapsed .ant-menu-item-icon {
+  display: none;
+}
+
+.layout-alignment .ant-layout-sider-collapsed .ant-menu-item-title {
+  display: none;
+}
+
+.layout-alignment .ant-menu-inline-collapsed .ant-menu-submenu-title,
+.layout-alignment .ant-menu-inline-collapsed .ant-menu-item-title {
+  display: none;
+}
+
+.layout-alignment .ant-menu-item-icon {
+  margin-right: 8px;
+}
+
+.layout-alignment .ant-menu-submenu-title {
+  margin-right: 24px;
+}
